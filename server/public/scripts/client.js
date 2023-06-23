@@ -1,7 +1,7 @@
-console.log( 'js' );
+console.log( 'Hello World' );
 
 $( document ).ready( function(){
-  console.log( 'JQ' );
+  console.log( 'JQ loaded' );
   // Establish Click Listeners
   setupClickListeners()
   // load existing koalas on page load
@@ -28,13 +28,13 @@ function setupClickListeners() {
 }
 
 function getKoalas(){
-  console.log( 'in getKoalas' );
+  console.log( 'in getKoalas()' );
   // ajax call to server to get koalas
   
 } // end getKoalas
 
 function saveKoala( newKoala ){
-  console.log( 'in saveKoala', newKoala );
+  console.log( 'in saveKoala()', newKoala );
   // ajax call to server to get koalas
  
 }
